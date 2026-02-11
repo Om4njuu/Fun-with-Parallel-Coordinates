@@ -28,7 +28,7 @@ button:hover {
 
 #chart svg text {
     fill: red;
-    stroke: white; /* outline color */
-    stroke-width: 2px; /* outline thickness */
-    paint-order: stroke fill; /* ensure stroke is painted behind fill */
+    stroke: white;
+    stroke-width: 2px;
+    paint-order: stroke fill;
 }
