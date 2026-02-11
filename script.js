@@ -1,6 +1,7 @@
 //load the datasets
 let cis2012Data;
 let cis2019Data;
+let currentData = null; //currently displayed dataset (for resize redraw)
 
 fetch('CIS_2012_dataset.json')
     .then(response => response.json())
@@ -22,6 +23,7 @@ fetch('CIS_2019_dataset.json')
 //two separate buttons to select datasets
 document.getElementById('cis2012Button').addEventListener('click', function() {
     if (cis2012Data) {
+        currentData = cis2012Data;
         drawParallelCoordinates(cis2012Data);
     } else {
         alert('CIS 2012 dataset is not loaded yet.');
@@ -30,6 +32,7 @@ document.getElementById('cis2012Button').addEventListener('click', function() {
 
 document.getElementById('cis2019Button').addEventListener('click', function() {
     if (cis2019Data) {
+        currentData = cis2019Data;
         drawParallelCoordinates(cis2019Data);
     } else {
         alert('CIS 2019 dataset is not loaded yet.');
@@ -40,9 +43,11 @@ document.getElementById('cis2019Button').addEventListener('click', function() {
 function drawParallelCoordinates(data) {
     d3.select('#chart').html(''); // clear
 
-    const margin = { top: 20, right: 20, bottom: 60, left: 60 },
-          width = 900 - margin.left - margin.right,
-          height = 500 - margin.top - margin.bottom;
+    const margin = { top: 20, right: 20, bottom: 60, left: 60 };
+    // make chart responsive to container width
+    const containerWidth = document.getElementById('chart').clientWidth || 900;
+    const width = containerWidth - margin.left - margin.right;
+    const height = 500 - margin.top - margin.bottom;
 
     const x = d3.scalePoint().range([0, width]).padding(1),
           y = {},
@@ -51,9 +56,9 @@ function drawParallelCoordinates(data) {
     const line = d3.line();
 
     const svg = d3.select('#chart')
-        .append('svg')
-        .attr('width', width + margin.left + margin.right)
-        .attr('height', height + margin.top + margin.bottom)
+                .append('svg')
+                .attr('width', width + margin.left + margin.right)
+                .attr('height', height + margin.top + margin.bottom)
       .append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
 
@@ -123,3 +128,12 @@ function drawParallelCoordinates(data) {
 
     console.log('Chart rendered with', data.length, 'rows and', dimensions.length, 'axes');
 }
+
+//redraw chart on window resize (debounced)
+let _resizeTimeout = null;
+window.addEventListener('resize', function() {
+    if (_resizeTimeout) clearTimeout(_resizeTimeout);
+    _resizeTimeout = setTimeout(function() {
+        if (currentData) drawParallelCoordinates(currentData);
+    }, 200);
+});
