@@ -1,0 +1,3422 @@
+[
+  {
+    "gender": "M",
+    "age_range": "35-64",
+    "credits_attempted": 186,
+    "credits_passed": 158,
+    "gpa": 2.438,
+    "grad_year": 2009,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 84,
+    "credits_passed": 70,
+    "gpa": 2.622,
+    "grad_year": 2009,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 148,
+    "credits_passed": 120,
+    "gpa": 2.735,
+    "grad_year": 2014,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 153,
+    "credits_passed": 150,
+    "gpa": 3.303,
+    "grad_year": 2012,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 154.5,
+    "credits_passed": 148.5,
+    "gpa": 3.144,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 134,
+    "credits_passed": 122,
+    "gpa": 2.913,
+    "grad_year": 2009,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 181,
+    "credits_passed": 163,
+    "gpa": 2.748,
+    "grad_year": 2009,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 116,
+    "credits_passed": 107,
+    "gpa": 2.845,
+    "grad_year": 2009,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 180,
+    "credits_passed": 162,
+    "gpa": 2.915,
+    "grad_year": 2011,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 188,
+    "credits_passed": 160,
+    "gpa": 2.765,
+    "grad_year": 2012,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 134,
+    "credits_passed": 134,
+    "gpa": 3.785,
+    "grad_year": 2009,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 207.5,
+    "credits_passed": 191.5,
+    "gpa": 3.221,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 172,
+    "credits_passed": 172,
+    "gpa": 3.88,
+    "grad_year": 2010,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 172,
+    "credits_passed": 172,
+    "gpa": 3.88,
+    "grad_year": 2010,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 162.5,
+    "credits_passed": 162.5,
+    "gpa": 3.809,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 171,
+    "credits_passed": 159,
+    "gpa": 3.052,
+    "grad_year": 2009,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 142,
+    "credits_passed": 129,
+    "gpa": 3.257,
+    "grad_year": 2009,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 182.5,
+    "credits_passed": 164.5,
+    "gpa": 3.106,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "35-64",
+    "credits_attempted": 220,
+    "credits_passed": 182.5,
+    "gpa": 3.063,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 164,
+    "credits_passed": 158,
+    "gpa": 3.134,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 149,
+    "credits_passed": 140,
+    "gpa": 3.453,
+    "grad_year": 2010,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 151,
+    "credits_passed": 145,
+    "gpa": 3.079,
+    "grad_year": 2009,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 137,
+    "credits_passed": 128,
+    "gpa": 2.849,
+    "grad_year": 2009,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 137,
+    "credits_passed": 128,
+    "gpa": 2.849,
+    "grad_year": 2009,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 164.5,
+    "credits_passed": 164.5,
+    "gpa": 3.519,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 193.5,
+    "credits_passed": 193.5,
+    "gpa": 3.512,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 193.5,
+    "credits_passed": 193.5,
+    "gpa": 3.512,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 136,
+    "credits_passed": 125,
+    "gpa": 2.898,
+    "grad_year": 2010,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 134,
+    "credits_passed": 128,
+    "gpa": 3.414,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 175,
+    "credits_passed": 166,
+    "gpa": 3.417,
+    "grad_year": 2012,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 175,
+    "credits_passed": 166,
+    "gpa": 3.417,
+    "grad_year": 2012,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 178,
+    "credits_passed": 155,
+    "gpa": 2.852,
+    "grad_year": 2013,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 87,
+    "credits_passed": 81,
+    "gpa": 3.527,
+    "grad_year": 2011,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 162,
+    "credits_passed": 162,
+    "gpa": 3.719,
+    "grad_year": 2010,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 125,
+    "credits_passed": 117,
+    "gpa": 3.105,
+    "grad_year": 2010,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 192,
+    "credits_passed": 171,
+    "gpa": 3.42,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 164,
+    "credits_passed": 164,
+    "gpa": 3.982,
+    "grad_year": 2010,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 198,
+    "credits_passed": 177,
+    "gpa": 2.799,
+    "grad_year": 2009,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 152.5,
+    "credits_passed": 140.5,
+    "gpa": 3.138,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 156,
+    "credits_passed": 132,
+    "gpa": 2.823,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 131,
+    "credits_passed": 113,
+    "gpa": 2.937,
+    "grad_year": 2009,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 190,
+    "credits_passed": 157.5,
+    "gpa": 2.624,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 177,
+    "credits_passed": 171,
+    "gpa": 3.099,
+    "grad_year": 2012,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 143,
+    "credits_passed": 136,
+    "gpa": 3.018,
+    "grad_year": 2009,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 151,
+    "credits_passed": 151,
+    "gpa": 3.319,
+    "grad_year": 2011,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 151,
+    "credits_passed": 151,
+    "gpa": 3.803,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 154,
+    "credits_passed": 142,
+    "gpa": 3.254,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 167,
+    "credits_passed": 167,
+    "gpa": 3.641,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 142,
+    "credits_passed": 127,
+    "gpa": 3.495,
+    "grad_year": 2010,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 171.5,
+    "credits_passed": 138,
+    "gpa": 2.863,
+    "grad_year": 2012,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 152,
+    "credits_passed": 140,
+    "gpa": 2.657,
+    "grad_year": 2009,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 164.5,
+    "credits_passed": 142.5,
+    "gpa": 3.156,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 190.5,
+    "credits_passed": 177.5,
+    "gpa": 2.785,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 153,
+    "credits_passed": 129,
+    "gpa": 3.226,
+    "grad_year": 2012,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 119,
+    "credits_passed": 112,
+    "gpa": 2.921,
+    "grad_year": 2009,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 127,
+    "credits_passed": 121,
+    "gpa": 3.22,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 163,
+    "credits_passed": 135,
+    "gpa": 2.829,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 157,
+    "credits_passed": 137,
+    "gpa": 3.143,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 156,
+    "credits_passed": 154.5,
+    "gpa": 3.431,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 131,
+    "credits_passed": 131,
+    "gpa": 3.54,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 163,
+    "credits_passed": 154.5,
+    "gpa": 2.985,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 168,
+    "credits_passed": 151,
+    "gpa": 3.523,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 167,
+    "credits_passed": 161,
+    "gpa": 3.109,
+    "grad_year": 2014,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 151,
+    "credits_passed": 151,
+    "gpa": 3.296,
+    "grad_year": 2010,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 136,
+    "credits_passed": 136,
+    "gpa": 3.892,
+    "grad_year": 2012,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 124,
+    "credits_passed": 124,
+    "gpa": 3.36,
+    "grad_year": 2011,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 164,
+    "credits_passed": 159,
+    "gpa": 3.643,
+    "grad_year": 2013,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 165,
+    "credits_passed": 165,
+    "gpa": 3.969,
+    "grad_year": 2013,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 166,
+    "credits_passed": 162,
+    "gpa": 3.069,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 189,
+    "credits_passed": 189,
+    "gpa": 3.645,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 102,
+    "credits_passed": 102,
+    "gpa": 3.497,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "18-21",
+    "credits_attempted": 123,
+    "credits_passed": 120,
+    "gpa": 3.313,
+    "grad_year": 2009,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 87,
+    "credits_passed": 87,
+    "gpa": 3.911,
+    "grad_year": 2009,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 154,
+    "credits_passed": 138,
+    "gpa": 2.775,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 149,
+    "credits_passed": 138,
+    "gpa": 3.222,
+    "grad_year": 2010,
+    "home": "Other International",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 168,
+    "credits_passed": 162,
+    "gpa": 2.949,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 162,
+    "credits_passed": 143,
+    "gpa": 2.801,
+    "grad_year": 2011,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 152,
+    "credits_passed": 146,
+    "gpa": 2.768,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 129,
+    "credits_passed": 129,
+    "gpa": 3.972,
+    "grad_year": 2009,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 138,
+    "credits_passed": 132,
+    "gpa": 3.137,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 140,
+    "credits_passed": 137,
+    "gpa": 3.367,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 81,
+    "credits_passed": 69,
+    "gpa": 2.919,
+    "grad_year": 2009,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 164.5,
+    "credits_passed": 155.5,
+    "gpa": 2.894,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 65,
+    "credits_passed": 65,
+    "gpa": 3.474,
+    "grad_year": 2010,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "35-64",
+    "credits_attempted": 151,
+    "credits_passed": 144,
+    "gpa": 3.777,
+    "grad_year": 2017,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "35-64",
+    "credits_attempted": 151,
+    "credits_passed": 144,
+    "gpa": 3.777,
+    "grad_year": 2017,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 166.5,
+    "credits_passed": 156,
+    "gpa": 2.903,
+    "grad_year": 2011,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 152.5,
+    "credits_passed": 146.5,
+    "gpa": 3.099,
+    "grad_year": 2011,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 152.5,
+    "credits_passed": 146.5,
+    "gpa": 3.099,
+    "grad_year": 2011,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "18-21",
+    "credits_attempted": 158,
+    "credits_passed": 158,
+    "gpa": 3.612,
+    "grad_year": 2011,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 134,
+    "credits_passed": 128,
+    "gpa": 3.429,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 193.5,
+    "credits_passed": 162.5,
+    "gpa": 3.252,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 130,
+    "credits_passed": 127,
+    "gpa": 3.617,
+    "grad_year": 2013,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 149,
+    "credits_passed": 143,
+    "gpa": 3.031,
+    "grad_year": 2011,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 161.5,
+    "credits_passed": 155.5,
+    "gpa": 2.907,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 130,
+    "credits_passed": 130,
+    "gpa": 3.549,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 156,
+    "credits_passed": 150,
+    "gpa": 3.096,
+    "grad_year": 2013,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 139,
+    "credits_passed": 135,
+    "gpa": 2.679,
+    "grad_year": 2012,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 148,
+    "credits_passed": 148,
+    "gpa": 3.747,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 148,
+    "credits_passed": 148,
+    "gpa": 3.747,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 149.5,
+    "credits_passed": 140,
+    "gpa": 3.122,
+    "grad_year": 2013,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 149,
+    "credits_passed": 140,
+    "gpa": 2.946,
+    "grad_year": 2013,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 148,
+    "credits_passed": 145,
+    "gpa": 3.388,
+    "grad_year": 2011,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 194,
+    "credits_passed": 183,
+    "gpa": 3.374,
+    "grad_year": 2012,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 194,
+    "credits_passed": 183,
+    "gpa": 3.374,
+    "grad_year": 2012,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 170,
+    "credits_passed": 151,
+    "gpa": 3.211,
+    "grad_year": 2012,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 162.5,
+    "credits_passed": 154.5,
+    "gpa": 2.964,
+    "grad_year": 2014,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 143.5,
+    "credits_passed": 139,
+    "gpa": 3.079,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "30-34",
+    "credits_attempted": 81,
+    "credits_passed": 81,
+    "gpa": 3.493,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 170,
+    "credits_passed": 166,
+    "gpa": 3.581,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 170,
+    "credits_passed": 166,
+    "gpa": 3.581,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 190,
+    "credits_passed": 153,
+    "gpa": 3.569,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 132,
+    "credits_passed": 132,
+    "gpa": 3.385,
+    "grad_year": 2016,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 132,
+    "credits_passed": 123,
+    "gpa": 3.347,
+    "grad_year": 2011,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 115,
+    "credits_passed": 109,
+    "gpa": 3.101,
+    "grad_year": 2012,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 86,
+    "credits_passed": 74,
+    "gpa": 2.941,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 158,
+    "credits_passed": 138,
+    "gpa": 3.433,
+    "grad_year": 2012,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 113,
+    "credits_passed": 110,
+    "gpa": 3.23,
+    "grad_year": 2012,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 156,
+    "credits_passed": 150,
+    "gpa": 3.154,
+    "grad_year": 2012,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 148,
+    "credits_passed": 148,
+    "gpa": 3.834,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 122,
+    "credits_passed": 122,
+    "gpa": 3.702,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 139,
+    "credits_passed": 136,
+    "gpa": 2.946,
+    "grad_year": 2017,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 183,
+    "credits_passed": 171,
+    "gpa": 2.708,
+    "grad_year": 2013,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 172,
+    "credits_passed": 172,
+    "gpa": 3.653,
+    "grad_year": 2013,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 160,
+    "credits_passed": 158,
+    "gpa": 3.88,
+    "grad_year": 2013,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "18-21",
+    "credits_attempted": 140,
+    "credits_passed": 128,
+    "gpa": 3.008,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 99,
+    "credits_passed": 84,
+    "gpa": 3.167,
+    "grad_year": 2012,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 152,
+    "credits_passed": 146,
+    "gpa": 3.369,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 164,
+    "credits_passed": 158,
+    "gpa": 3.578,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 171,
+    "credits_passed": 157,
+    "gpa": 3.61,
+    "grad_year": 2013,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 154,
+    "credits_passed": 142,
+    "gpa": 2.503,
+    "grad_year": 2014,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 148,
+    "credits_passed": 145,
+    "gpa": 3.379,
+    "grad_year": 2013,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 131,
+    "credits_passed": 131,
+    "gpa": 3.254,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 176,
+    "credits_passed": 146,
+    "gpa": 3.006,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 107,
+    "credits_passed": 107,
+    "gpa": 3.47,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 115,
+    "credits_passed": 109,
+    "gpa": 3.237,
+    "grad_year": 2012,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 147,
+    "credits_passed": 147,
+    "gpa": 3.858,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 103,
+    "credits_passed": 103,
+    "gpa": 3.752,
+    "grad_year": 2012,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 144,
+    "credits_passed": 132,
+    "gpa": 3.12,
+    "grad_year": 2013,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 136,
+    "credits_passed": 122,
+    "gpa": 3.048,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 98,
+    "credits_passed": 98,
+    "gpa": 3.687,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 125.5,
+    "credits_passed": 120.5,
+    "gpa": 2.948,
+    "grad_year": 2017,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 122,
+    "credits_passed": 116,
+    "gpa": 2.824,
+    "grad_year": 2013,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 171,
+    "credits_passed": 167,
+    "gpa": 3.872,
+    "grad_year": 2014,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 130,
+    "credits_passed": 130,
+    "gpa": 3.007,
+    "grad_year": 2012,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 174,
+    "credits_passed": 171,
+    "gpa": 3.634,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 106,
+    "credits_passed": 106,
+    "gpa": 3.346,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 169,
+    "credits_passed": 129.5,
+    "gpa": 2.716,
+    "grad_year": 2018,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 114,
+    "credits_passed": 106,
+    "gpa": 2.731,
+    "grad_year": 2019,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 73,
+    "credits_passed": 73,
+    "gpa": 3.401,
+    "grad_year": 2012,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 159,
+    "credits_passed": 142,
+    "gpa": 3.16,
+    "grad_year": 2014,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 117,
+    "credits_passed": 108,
+    "gpa": 3.277,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 111,
+    "credits_passed": 105,
+    "gpa": 3.321,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 156,
+    "credits_passed": 156,
+    "gpa": 3.557,
+    "grad_year": 2014,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 151,
+    "credits_passed": 140,
+    "gpa": 2.754,
+    "grad_year": 2014,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 90,
+    "credits_passed": 90,
+    "gpa": 3.867,
+    "grad_year": 2014,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 87,
+    "credits_passed": 87,
+    "gpa": 3.61,
+    "grad_year": 2012,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 158,
+    "credits_passed": 153,
+    "gpa": 3.356,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 153,
+    "credits_passed": 132,
+    "gpa": 2.608,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "35-64",
+    "credits_attempted": 134,
+    "credits_passed": 122,
+    "gpa": 2.895,
+    "grad_year": 2018,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 154,
+    "credits_passed": 143,
+    "gpa": 2.477,
+    "grad_year": 2015,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 140,
+    "credits_passed": 140,
+    "gpa": 3.777,
+    "grad_year": 2014,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 149,
+    "credits_passed": 138,
+    "gpa": 2.717,
+    "grad_year": 2016,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 118,
+    "credits_passed": 118,
+    "gpa": 3.474,
+    "grad_year": 2016,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 95,
+    "credits_passed": 95,
+    "gpa": 3.927,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 150,
+    "credits_passed": 150,
+    "gpa": 3.251,
+    "grad_year": 2015,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 146,
+    "credits_passed": 146,
+    "gpa": 3.67,
+    "grad_year": 2014,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 136,
+    "credits_passed": 130,
+    "gpa": 2.937,
+    "grad_year": 2014,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 169,
+    "credits_passed": 163,
+    "gpa": 3.036,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 84,
+    "credits_passed": 81,
+    "gpa": 3.284,
+    "grad_year": 2014,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 152,
+    "credits_passed": 144,
+    "gpa": 3.66,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 150,
+    "credits_passed": 130,
+    "gpa": 3.142,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 151.5,
+    "credits_passed": 138,
+    "gpa": 3.351,
+    "grad_year": 2016,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 104,
+    "credits_passed": 78,
+    "gpa": 3.073,
+    "grad_year": 2016,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 145,
+    "credits_passed": 144,
+    "gpa": 3.438,
+    "grad_year": 2017,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "35-64",
+    "credits_attempted": 139,
+    "credits_passed": 130,
+    "gpa": 3.146,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 134,
+    "credits_passed": 131,
+    "gpa": 3.063,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 131,
+    "credits_passed": 131,
+    "gpa": 3.606,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 103,
+    "credits_passed": 103,
+    "gpa": 3.402,
+    "grad_year": 2013,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 91,
+    "credits_passed": 91,
+    "gpa": 2.762,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 123,
+    "credits_passed": 123,
+    "gpa": 3.73,
+    "grad_year": 2014,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 156,
+    "credits_passed": 148,
+    "gpa": 3.709,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "35-64",
+    "credits_attempted": 168.5,
+    "credits_passed": 132,
+    "gpa": 2.606,
+    "grad_year": 2016,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 132,
+    "credits_passed": 124,
+    "gpa": 3.377,
+    "grad_year": 2017,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 126,
+    "credits_passed": 120,
+    "gpa": 3.264,
+    "grad_year": 2014,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 67,
+    "credits_passed": 67,
+    "gpa": 3.978,
+    "grad_year": 2017,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 153,
+    "credits_passed": 153,
+    "gpa": 3.719,
+    "grad_year": 2015,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 154,
+    "credits_passed": 145,
+    "gpa": 3.491,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 151,
+    "credits_passed": 148,
+    "gpa": 3.48,
+    "grad_year": 2015,
+    "home": "Other International",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 135,
+    "credits_passed": 129,
+    "gpa": 3.263,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 148,
+    "credits_passed": 145,
+    "gpa": 3.526,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 131,
+    "credits_passed": 131,
+    "gpa": 3.91,
+    "grad_year": 2013,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 131,
+    "credits_passed": 131,
+    "gpa": 3.91,
+    "grad_year": 2013,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 147,
+    "credits_passed": 136,
+    "gpa": 3.209,
+    "grad_year": 2018,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 161,
+    "credits_passed": 158,
+    "gpa": 3.553,
+    "grad_year": 2015,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 90,
+    "credits_passed": 90,
+    "gpa": 3.538,
+    "grad_year": 2013,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "18-21",
+    "credits_attempted": 131,
+    "credits_passed": 131,
+    "gpa": 3.024,
+    "grad_year": 2014,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 159.5,
+    "credits_passed": 143.5,
+    "gpa": 2.681,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 134,
+    "credits_passed": 129.5,
+    "gpa": 3.245,
+    "grad_year": 2015,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 143,
+    "credits_passed": 137,
+    "gpa": 3.332,
+    "grad_year": 2015,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 148,
+    "credits_passed": 127,
+    "gpa": 2.757,
+    "grad_year": 2018,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 143,
+    "credits_passed": 118,
+    "gpa": 2.717,
+    "grad_year": 2018,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 170,
+    "credits_passed": 160,
+    "gpa": 3.268,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 97,
+    "credits_passed": 94,
+    "gpa": 3.795,
+    "grad_year": 2019,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 112,
+    "credits_passed": 112,
+    "gpa": 3.425,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "18-21",
+    "credits_attempted": 139,
+    "credits_passed": 139,
+    "gpa": 3.987,
+    "grad_year": 2015,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 152,
+    "credits_passed": 134,
+    "gpa": 3.488,
+    "grad_year": 2016,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 164,
+    "credits_passed": 149,
+    "gpa": 3.201,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 156,
+    "credits_passed": 156,
+    "gpa": 3.941,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 138,
+    "credits_passed": 138,
+    "gpa": 3.564,
+    "grad_year": 2018,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 155,
+    "credits_passed": 149,
+    "gpa": 2.95,
+    "grad_year": 2016,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 146,
+    "credits_passed": 146,
+    "gpa": 3.791,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 129,
+    "credits_passed": 129,
+    "gpa": 3.55,
+    "grad_year": 2016,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 155,
+    "credits_passed": 151,
+    "gpa": 3.426,
+    "grad_year": 2016,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "18-21",
+    "credits_attempted": 112.5,
+    "credits_passed": 100.5,
+    "gpa": 2.805,
+    "grad_year": 2014,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 82,
+    "credits_passed": 82,
+    "gpa": 3.082,
+    "grad_year": 2014,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 123,
+    "credits_passed": 120,
+    "gpa": 3.413,
+    "grad_year": 2016,
+    "home": "Other International",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 139,
+    "credits_passed": 136,
+    "gpa": 3.026,
+    "grad_year": 2016,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 128,
+    "credits_passed": 128,
+    "gpa": 3.892,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 133,
+    "credits_passed": 132,
+    "gpa": 3.968,
+    "grad_year": 2016,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 143,
+    "credits_passed": 140,
+    "gpa": 3.797,
+    "grad_year": 2016,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 146,
+    "credits_passed": 146,
+    "gpa": 3.833,
+    "grad_year": 2019,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 62,
+    "credits_passed": 59,
+    "gpa": 3.532,
+    "grad_year": 2014,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "35-64",
+    "credits_attempted": 169,
+    "credits_passed": 157,
+    "gpa": 3.019,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 100,
+    "credits_passed": 94,
+    "gpa": 3.447,
+    "grad_year": 2016,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 101,
+    "credits_passed": 101,
+    "gpa": 2.941,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 157,
+    "credits_passed": 145,
+    "gpa": 3.357,
+    "grad_year": 2018,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 157,
+    "credits_passed": 145,
+    "gpa": 3.357,
+    "grad_year": 2018,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 132.5,
+    "credits_passed": 129.5,
+    "gpa": 3.806,
+    "grad_year": 2018,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "18-21",
+    "credits_attempted": 113,
+    "credits_passed": 113,
+    "gpa": 3.488,
+    "grad_year": 2017,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 157,
+    "credits_passed": 157,
+    "gpa": 3.676,
+    "grad_year": 2016,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 130,
+    "credits_passed": 130,
+    "gpa": 3.162,
+    "grad_year": 2017,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 126,
+    "credits_passed": 126,
+    "gpa": 3.879,
+    "grad_year": 2019,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 144,
+    "credits_passed": 131,
+    "gpa": 3.03,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 77,
+    "credits_passed": 77,
+    "gpa": 3.136,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 146,
+    "credits_passed": 143,
+    "gpa": 3.893,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 114,
+    "credits_passed": 114,
+    "gpa": 3.539,
+    "grad_year": 2016,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 112,
+    "credits_passed": 112,
+    "gpa": 3.454,
+    "grad_year": 2016,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 114,
+    "credits_passed": 114,
+    "gpa": 3.129,
+    "grad_year": 2016,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 129,
+    "credits_passed": 129,
+    "gpa": 3.719,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 120,
+    "credits_passed": 117,
+    "gpa": 3.272,
+    "grad_year": 2016,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 119,
+    "credits_passed": 119,
+    "gpa": 3.708,
+    "grad_year": 2018,
+    "home": "Other International",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 102,
+    "credits_passed": 102,
+    "gpa": 3.968,
+    "grad_year": 2016,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 126,
+    "credits_passed": 123,
+    "gpa": 3.832,
+    "grad_year": 2017,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 130,
+    "credits_passed": 130,
+    "gpa": 3.859,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 88,
+    "credits_passed": 88,
+    "gpa": 3.284,
+    "grad_year": 2016,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 154.5,
+    "credits_passed": 137.5,
+    "gpa": 2.739,
+    "grad_year": 2017,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 164,
+    "credits_passed": 147,
+    "gpa": 3.011,
+    "grad_year": 2018,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 133,
+    "credits_passed": 120,
+    "gpa": 3.183,
+    "grad_year": 2017,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 148,
+    "credits_passed": 140,
+    "gpa": 3.089,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 139,
+    "credits_passed": 130,
+    "gpa": 2.965,
+    "grad_year": 2017,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "18-21",
+    "credits_attempted": 112,
+    "credits_passed": 112,
+    "gpa": 3.765,
+    "grad_year": 2017,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 161,
+    "credits_passed": 161,
+    "gpa": 3.812,
+    "grad_year": 2018,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "18-21",
+    "credits_attempted": 133,
+    "credits_passed": 133,
+    "gpa": 3.865,
+    "grad_year": 2017,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 81,
+    "credits_passed": 81,
+    "gpa": 3.41,
+    "grad_year": 2016,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "18-21",
+    "credits_attempted": 134,
+    "credits_passed": 124,
+    "gpa": 2.844,
+    "grad_year": 2018,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 135,
+    "credits_passed": 134,
+    "gpa": 3.82,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 127,
+    "credits_passed": 121,
+    "gpa": 3.623,
+    "grad_year": 2018,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 106,
+    "credits_passed": 106,
+    "gpa": 3.975,
+    "grad_year": 2017,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 202,
+    "credits_passed": 197,
+    "gpa": 4,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 130,
+    "credits_passed": 130,
+    "gpa": 3.986,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 148,
+    "credits_passed": 133,
+    "gpa": 2.874,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 139,
+    "credits_passed": 139,
+    "gpa": 3.39,
+    "grad_year": 2017,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "35-64",
+    "credits_attempted": 135,
+    "credits_passed": 135,
+    "gpa": 3.902,
+    "grad_year": 2018,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 137,
+    "credits_passed": 134,
+    "gpa": 3.275,
+    "grad_year": 2017,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 132,
+    "credits_passed": 129,
+    "gpa": 3.849,
+    "grad_year": 2018,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 137,
+    "credits_passed": 137,
+    "gpa": 3.84,
+    "grad_year": 2019,
+    "home": "Other International",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 161.5,
+    "credits_passed": 161.5,
+    "gpa": 3.674,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 163,
+    "credits_passed": 145,
+    "gpa": 2.578,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 162,
+    "credits_passed": 142,
+    "gpa": 3.027,
+    "grad_year": 2018,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 95,
+    "credits_passed": 83,
+    "gpa": 2.777,
+    "grad_year": 2018,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 148,
+    "credits_passed": 145,
+    "gpa": 3.902,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 143,
+    "credits_passed": 128,
+    "gpa": 2.813,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 86,
+    "credits_passed": 86,
+    "gpa": 3.808,
+    "grad_year": 2017,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 150,
+    "credits_passed": 141,
+    "gpa": 3.337,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 63,
+    "credits_passed": 62,
+    "gpa": 3.061,
+    "grad_year": 2016,
+    "home": "Other International",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 117,
+    "credits_passed": 111,
+    "gpa": 3.26,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 163,
+    "credits_passed": 153,
+    "gpa": 3.579,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 201,
+    "credits_passed": 184,
+    "gpa": 3.226,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 201,
+    "credits_passed": 184,
+    "gpa": 3.226,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "18-21",
+    "credits_attempted": 71,
+    "credits_passed": 71,
+    "gpa": 3.987,
+    "grad_year": 2017,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "18-21",
+    "credits_attempted": 122,
+    "credits_passed": 122,
+    "gpa": 3.61,
+    "grad_year": 2018,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 125,
+    "credits_passed": 119,
+    "gpa": 3.076,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "35-64",
+    "credits_attempted": 122,
+    "credits_passed": 105,
+    "gpa": 3.217,
+    "grad_year": 2019,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 138,
+    "credits_passed": 132,
+    "gpa": 3.158,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 162,
+    "credits_passed": 159,
+    "gpa": 3.806,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 162,
+    "credits_passed": 159,
+    "gpa": 3.806,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 132,
+    "credits_passed": 129,
+    "gpa": 3.311,
+    "grad_year": 2018,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 152,
+    "credits_passed": 152,
+    "gpa": 3.883,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 135,
+    "credits_passed": 135,
+    "gpa": 3.447,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 131,
+    "credits_passed": 123,
+    "gpa": 3.175,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 148,
+    "credits_passed": 148,
+    "gpa": 3.749,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 132,
+    "credits_passed": 132,
+    "gpa": 3.412,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 149,
+    "credits_passed": 149,
+    "gpa": 3.982,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 123,
+    "credits_passed": 120,
+    "gpa": 3.502,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "18-21",
+    "credits_attempted": 111,
+    "credits_passed": 111,
+    "gpa": 3.768,
+    "grad_year": 2019,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 95,
+    "credits_passed": 92,
+    "gpa": 3.231,
+    "grad_year": 2019,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 131,
+    "credits_passed": 127,
+    "gpa": 3.84,
+    "grad_year": 2019,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 114,
+    "credits_passed": 114,
+    "gpa": 3.81,
+    "grad_year": 2019,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 96.5,
+    "credits_passed": 93.5,
+    "gpa": 3.272,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 163.5,
+    "credits_passed": 153,
+    "gpa": 3.39,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 137,
+    "credits_passed": 134,
+    "gpa": 3.513,
+    "grad_year": 2009,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 130,
+    "credits_passed": 109,
+    "gpa": 2.682,
+    "grad_year": 2009,
+    "home": "US Mainland",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 167,
+    "credits_passed": 167,
+    "gpa": 3.928,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 174,
+    "credits_passed": 147.5,
+    "gpa": 2.85,
+    "grad_year": 2009,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 157,
+    "credits_passed": 138,
+    "gpa": 2.935,
+    "grad_year": 2009,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 132.5,
+    "credits_passed": 132.5,
+    "gpa": 3.727,
+    "grad_year": 2010,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 156.5,
+    "credits_passed": 151.5,
+    "gpa": 2.737,
+    "grad_year": 2010,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 167,
+    "credits_passed": 167,
+    "gpa": 3.928,
+    "grad_year": 2009,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 163,
+    "credits_passed": 155,
+    "gpa": 3.202,
+    "grad_year": 2010,
+    "home": "Pacific",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 191,
+    "credits_passed": 181,
+    "gpa": 3.281,
+    "grad_year": 2011,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 180,
+    "credits_passed": 180,
+    "gpa": 3.696,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 180,
+    "credits_passed": 180,
+    "gpa": 3.696,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 176.5,
+    "credits_passed": 174.5,
+    "gpa": 3.023,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "30-34",
+    "credits_attempted": 170,
+    "credits_passed": 162,
+    "gpa": 3.155,
+    "grad_year": 2011,
+    "home": "Other International",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 145,
+    "credits_passed": 136,
+    "gpa": 3.657,
+    "grad_year": 2011,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 181,
+    "credits_passed": 173,
+    "gpa": 3.482,
+    "grad_year": 2011,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 169,
+    "credits_passed": 140.5,
+    "gpa": 2.791,
+    "grad_year": 2012,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 134,
+    "credits_passed": 134,
+    "gpa": 3.731,
+    "grad_year": 2013,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 144,
+    "credits_passed": 137,
+    "gpa": 3.628,
+    "grad_year": 2013,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "30-34",
+    "credits_attempted": 166,
+    "credits_passed": 143,
+    "gpa": 2.667,
+    "grad_year": 2014,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 123,
+    "credits_passed": 104.5,
+    "gpa": 2.686,
+    "grad_year": 2014,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 151,
+    "credits_passed": 134,
+    "gpa": 3.359,
+    "grad_year": 2015,
+    "home": "Asia",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 166,
+    "credits_passed": 135,
+    "gpa": 2.847,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 142.5,
+    "credits_passed": 130,
+    "gpa": 3.25,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 154,
+    "credits_passed": 154,
+    "gpa": 3.782,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 145,
+    "credits_passed": 145,
+    "gpa": 3.507,
+    "grad_year": 2015,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 144,
+    "credits_passed": 135,
+    "gpa": 2.906,
+    "grad_year": 2015,
+    "home": "US Mainland",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "F",
+    "age_range": "25-29",
+    "credits_attempted": 128,
+    "credits_passed": 128,
+    "gpa": 3.766,
+    "grad_year": 2015,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "F",
+    "age_range": "18-21",
+    "credits_attempted": 113,
+    "credits_passed": 111,
+    "gpa": 3.466,
+    "grad_year": 2016,
+    "home": "Hawaii",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 132,
+    "credits_passed": 129,
+    "gpa": 3.795,
+    "grad_year": 2016,
+    "home": "Pacific",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 110,
+    "credits_passed": 107,
+    "gpa": 3.588,
+    "grad_year": 2017,
+    "home": "Other International",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 167,
+    "credits_passed": 153,
+    "gpa": 2.541,
+    "grad_year": 2017,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 101,
+    "credits_passed": 101,
+    "gpa": 4,
+    "grad_year": 2018,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 161,
+    "credits_passed": 156,
+    "gpa": 3.808,
+    "grad_year": 2018,
+    "home": "Hawaii",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "F",
+    "age_range": "22-24",
+    "credits_attempted": 177,
+    "credits_passed": 168,
+    "gpa": 3.546,
+    "grad_year": 2018,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 144,
+    "credits_passed": 126,
+    "gpa": 2.85,
+    "grad_year": 2018,
+    "home": "Pacific",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 190,
+    "credits_passed": 172,
+    "gpa": 3.367,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Systems"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 153,
+    "credits_passed": 153,
+    "gpa": 3.534,
+    "grad_year": 2019,
+    "home": "Hawaii",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "22-24",
+    "credits_attempted": 110,
+    "credits_passed": 110,
+    "gpa": 3.525,
+    "grad_year": 2019,
+    "home": "US Mainland",
+    "major": "Computer Science"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 164,
+    "credits_passed": 163,
+    "gpa": 3.629,
+    "grad_year": 2019,
+    "home": "Asia",
+    "major": "Information Technology"
+  },
+  {
+    "gender": "M",
+    "age_range": "25-29",
+    "credits_attempted": 158,
+    "credits_passed": 154,
+    "gpa": 3.299,
+    "grad_year": 2019,
+    "home": "Pacific",
+    "major": "Information Technology"
+  }
+]
