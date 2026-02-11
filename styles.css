@@ -25,3 +25,10 @@ button:hover {
     height: 500px;
     margin-top: 20px;
 }
+
+#chart svg text {
+    fill: red;
+    stroke: white; /* outline color */
+    stroke-width: 2px; /* outline thickness */
+    paint-order: stroke fill; /* ensure stroke is painted behind fill */
+}
