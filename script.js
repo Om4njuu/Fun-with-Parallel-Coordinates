@@ -1,8 +1,9 @@
-//load the datasets
-let cis2012Data;
-let cis2019Data;
-let currentData = null; //currently displayed dataset (for resize redraw)
+//load datasets from JSON files into memory
+let cis2012Data; //will hold CIS 2012 rows
+let cis2019Data; //will hold CIS 2019 rows
+let currentData = null; //currently displayed dataset (used for redraw on resize)
 
+//fetch the 2012 dataset asynchronously
 fetch('CIS_2012_dataset.json')
     .then(response => response.json())
     .then(data => {
@@ -11,6 +12,7 @@ fetch('CIS_2012_dataset.json')
     })
     .catch(error => console.error('Error loading CIS 2012 dataset:', error));
 
+//fetch the 2019 dataset asynchronously
 fetch('CIS_2019_dataset.json')
     .then(response => response.json())
     .then(data => {
@@ -19,9 +21,9 @@ fetch('CIS_2019_dataset.json')
     })
     .catch(error => console.error('Error loading CIS 2019 dataset:', error));
 
-//toggle button (single control to switch datasets)
-//two separate buttons to select datasets
+//buttons to choose which dataset to display
 document.getElementById('cis2012Button').addEventListener('click', function() {
+    //show 2012 data if loaded
     if (cis2012Data) {
         currentData = cis2012Data;
         drawParallelCoordinates(cis2012Data);
@@ -31,6 +33,7 @@ document.getElementById('cis2012Button').addEventListener('click', function() {
 });
 
 document.getElementById('cis2019Button').addEventListener('click', function() {
+    //show 2019 data if loaded
     if (cis2019Data) {
         currentData = cis2019Data;
         drawParallelCoordinates(cis2019Data);
@@ -39,22 +42,26 @@ document.getElementById('cis2019Button').addEventListener('click', function() {
     }
 });
 
-//draw Parallel Coordinates
+//main function to draw parallel coordinates chart for provided `data`
 function drawParallelCoordinates(data) {
-    d3.select('#chart').html(''); // clear
+    //clear previous chart content
+    d3.select('#chart').html('');
 
+    //margins and responsive sizing
     const margin = { top: 20, right: 20, bottom: 60, left: 60 };
-    // make chart responsive to container width
-    const containerWidth = document.getElementById('chart').clientWidth || 900;
+    const containerWidth = document.getElementById('chart').clientWidth || 900; //fallback
     const width = containerWidth - margin.left - margin.right;
     const height = 500 - margin.top - margin.bottom;
 
+    //x: position of axes; y: mapping per-dimension; isNumeric: type map
     const x = d3.scalePoint().range([0, width]).padding(1),
           y = {},
           isNumeric = {};
 
+    //line generator for polylines
     const line = d3.line();
 
+    //create SVG and main group
     const svg = d3.select('#chart')
                 .append('svg')
                 .attr('width', width + margin.left + margin.right)
@@ -62,23 +69,20 @@ function drawParallelCoordinates(data) {
       .append('g')
         .attr('transform', `translate(${margin.left},${margin.top})`);
 
-    //derive dimensions from keys of first object
+    //derive axis names from first row keys
     const dimensions = Object.keys(data[0]);
     console.log('Dimensions:', dimensions);
-
     x.domain(dimensions);
 
-    //prepare scales for each dimension
+    //prepare scales for each dimension (numeric -> linear, others -> point)
     dimensions.forEach(function(dim) {
-        //collect valid values (skip null/undefined)
         const vals = data.map(d => d[dim]).filter(v => v !== undefined && v !== null);
         const allNumeric = vals.length > 0 && vals.every(v => !isNaN(+v));
         isNumeric[dim] = allNumeric;
 
         if (allNumeric) {
             const extent = d3.extent(vals, v => +v);
-            //guard against zero-range
-            if (extent[0] === extent[1]) extent[0] = extent[0] - 1;
+            if (extent[0] === extent[1]) extent[0] = extent[0] - 1; //avoid zero range
             y[dim] = d3.scaleLinear().domain(extent).range([height, 0]);
         } else {
             const unique = Array.from(new Set(vals.map(v => String(v))));
@@ -86,7 +90,7 @@ function drawParallelCoordinates(data) {
         }
     });
 
-    //draw lines first (so axes and their text render on top)
+    //draw polylines for each data row
     const linesG = svg.append('g').attr('class', 'lines');
     linesG.selectAll('.line')
         .data(data)
@@ -102,7 +106,7 @@ function drawParallelCoordinates(data) {
         .style('stroke-width', 1)
         .style('fill', 'none');
 
-    //draw axes on top of lines
+    //draw axes and axis labels on top
     const dimensionG = svg.selectAll('.dimension')
         .data(dimensions)
       .enter().append('g')
@@ -120,6 +124,7 @@ function drawParallelCoordinates(data) {
             g.call(d3.axisLeft(y[d]).tickValues(domain));
         }
 
+        //axis title
         g.append('text')
             .attr('text-anchor', 'middle')
             .attr('y', -10)
