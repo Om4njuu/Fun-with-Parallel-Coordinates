@@ -32,3 +32,33 @@ button:hover {
     stroke-width: 2px;
     paint-order: stroke fill;
 }
+
+#pc-tooltip, .pc-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: rgba(255,255,255,0.95);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    font-family: sans-serif;
+    font-size: 12px;
+    display: none;
+    z-index: 1000;
+}
+
+#pc-tooltip.visible, .pc-tooltip.visible {
+    display: block;
+}
+
+.line {
+    stroke: rgba(0,0,0,0.6);
+    stroke-width: 1;
+    fill: none;
+    transition: stroke 80ms ease, stroke-width 80ms ease;
+}
+
+.line.hovered {
+    stroke: #ff7f0e;
+    stroke-width: 3;
+}

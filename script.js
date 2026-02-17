@@ -3,6 +3,11 @@ let cis2012Data; //will hold CIS 2012 rows
 let cis2019Data; //will hold CIS 2019 rows
 let currentData = null; //currently displayed dataset (used for redraw on resize)
 
+//tooltip for showing row details on hover
+const tooltip = d3.select('body').append('div')
+    .attr('id', 'pc-tooltip')
+    .attr('class', 'pc-tooltip');
+
 //fetch the 2012 dataset asynchronously
 fetch('CIS_2012_dataset.json')
     .then(response => response.json())
@@ -102,9 +107,24 @@ function drawParallelCoordinates(data) {
                 return [x(p), y[p](v)];
             }));
         })
-        .style('stroke', 'rgba(0,0,0,0.6)')
-        .style('stroke-width', 1)
-        .style('fill', 'none');
+        .on('mouseover', function(event, row) {
+            d3.select(this).raise().classed('hovered', true);
+
+            // build tooltip content
+            const html = dimensions.map(d => `<div><strong>${d}</strong>: ${row[d] == null ? '' : row[d]}</div>`).join('');
+            tooltip.html(html)
+                .classed('visible', true)
+                .style('left', (event.pageX + 10) + 'px')
+                .style('top', (event.pageY + 10) + 'px');
+        })
+        .on('mousemove', function(event, row) {
+            tooltip.style('left', (event.pageX + 10) + 'px')
+                   .style('top', (event.pageY + 10) + 'px');
+        })
+        .on('mouseout', function(event, row) {
+            d3.select(this).classed('hovered', false);
+            tooltip.classed('visible', false);
+        });
 
     //draw axes and axis labels on top
     const dimensionG = svg.selectAll('.dimension')
