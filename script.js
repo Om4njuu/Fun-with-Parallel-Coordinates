@@ -225,13 +225,9 @@ function drawParallelCoordinates(data) {
         d3.select(window).on('mousemove.brush', null).on('mouseup.brush', null);
     }
 
-    // determine candidate lines and set selected/faint classes
+    //determine candidate lines and set selected/faint classes
     function updateSelection(rect, finalize) {
         const rectBounds = { x1: rect.x, y1: rect.y, x2: rect.x + rect.width, y2: rect.y + rect.height };
-
-        // choose candidate set: during dragging, use the snapshot captured at brush start so live dragging
-        // doesn't progressively narrow the candidate set. When finalize===true, also use that same
-        // snapshot for narrowing and then update the snapshot after finalization.
         const initial = Array.isArray(svg.node()._brushInitialSelected) && svg.node()._brushInitialSelected.length > 0 ? svg.node()._brushInitialSelected : null;
         const candidates = initial ? initial : svg.selectAll('.line').nodes();
 
@@ -244,10 +240,10 @@ function drawParallelCoordinates(data) {
             }
         });
 
-        // determine whether there is any selection at all (either existing or newly selected)
+        //determine whether there is any selection at all (either existing or newly selected)
         const hadExisting = (initial && initial.length > 0) || svg.selectAll('.line.selected').nodes().length > 0;
 
-        // apply classes: lines in newlySelected become selected; others become faint
+        //lines in newlySelected become selected; others become faint
         svg.selectAll('.line').each(function() {
             const node = this;
             if (newlySelected.has(node)) {
@@ -260,9 +256,6 @@ function drawParallelCoordinates(data) {
                 }
             }
         });
-
-        // debug: log selection count
-        // console.log('selected:', newlySelected.size);
     }
 
     //test whether any segment or point of polyline intersects rect
@@ -322,7 +315,7 @@ function drawParallelCoordinates(data) {
     console.log('Chart rendered with', data.length, 'rows and', dimensions.length, 'axes');
 }
 
-// Clear selection when clicking outside the chart area
+//clear selection when clicking outside the chart area
 window.addEventListener('click', function(e) {
     const chartEl = document.getElementById('chart');
     if (!chartEl) return;
