@@ -66,10 +66,14 @@ button:hover {
 .line.faint {
     opacity: 0.06;
 }
+.line.faint { pointer-events: none; }
 .line.selected {
     opacity: 1;
     stroke-width: 3;
 }
+
+/* prevent axis labels from capturing pointer events (so dragging can start on text) */
+#chart svg .dimension text { pointer-events: none; }
 
 .brush-rect {
     fill: rgba(0,120,215,0.07);

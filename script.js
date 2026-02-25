@@ -173,14 +173,12 @@ function drawParallelCoordinates(data) {
         .attr('display', 'none');
 
     let brushStart = null;
-    //snapshot of selected lines at the moment brushing started
-    let brushInitialSelected = null;
 
     //start brushing from the main svg group (so the overlay rect doesn't block pointer-events to lines)
     svg.on('mousedown', function(event) {
         brushStart = d3.pointer(event, svg.node());
         //capture current selection snapshot so live dragging doesn't progressively narrow
-        brushInitialSelected = svg.selectAll('.line.selected').nodes();
+        svg.node()._brushInitialSelected = svg.selectAll('.line.selected').nodes();
         brushRect.attr('x', brushStart[0]).attr('y', brushStart[1])
             .attr('width', 0).attr('height', 0)
             .classed('visible', true);
@@ -215,10 +213,11 @@ function drawParallelCoordinates(data) {
         if (w < 3 && h < 3) {
             //clear selection
             svg.selectAll('.line').classed('selected', false).classed('faint', false);
+            svg.node()._brushInitialSelected = null;
         } else {
             updateSelection({ x: x0, y: y0, width: w, height: h }, true);
             // after finalizing, update the snapshot so subsequent brushes narrow from this selection
-            brushInitialSelected = svg.selectAll('.line.selected').nodes();
+            svg.node()._brushInitialSelected = svg.selectAll('.line.selected').nodes();
         }
 
         brushRect.classed('visible', false);
@@ -226,13 +225,15 @@ function drawParallelCoordinates(data) {
         d3.select(window).on('mousemove.brush', null).on('mouseup.brush', null);
     }
 
-    //determine candidate lines and set selected/faint classes
+    // determine candidate lines and set selected/faint classes
     function updateSelection(rect, finalize) {
         const rectBounds = { x1: rect.x, y1: rect.y, x2: rect.x + rect.width, y2: rect.y + rect.height };
 
-        //choose candidate set: if any lines already selected, narrow to those; otherwise all lines
-        const alreadySelected = svg.selectAll('.line.selected').nodes();
-        const candidates = alreadySelected.length > 0 ? alreadySelected : svg.selectAll('.line').nodes();
+        // choose candidate set: during dragging, use the snapshot captured at brush start so live dragging
+        // doesn't progressively narrow the candidate set. When finalize===true, also use that same
+        // snapshot for narrowing and then update the snapshot after finalization.
+        const initial = Array.isArray(svg.node()._brushInitialSelected) && svg.node()._brushInitialSelected.length > 0 ? svg.node()._brushInitialSelected : null;
+        const candidates = initial ? initial : svg.selectAll('.line').nodes();
 
         const newlySelected = new Set();
 
@@ -243,52 +244,26 @@ function drawParallelCoordinates(data) {
             }
         });
 
-        //apply classes: lines in newlySelected become selected; others become faint
+        // determine whether there is any selection at all (either existing or newly selected)
+        const hadExisting = (initial && initial.length > 0) || svg.selectAll('.line.selected').nodes().length > 0;
+
+        // apply classes: lines in newlySelected become selected; others become faint
         svg.selectAll('.line').each(function() {
             const node = this;
             if (newlySelected.has(node)) {
                 d3.select(node).classed('selected', true).classed('faint', false);
             } else {
-                //if there was an existing selection set and this node was not selected now, make faint
-                if (alreadySelected.length > 0 || newlySelected.size > 0) {
+                if (hadExisting || newlySelected.size > 0) {
                     d3.select(node).classed('selected', false).classed('faint', true);
                 } else {
                     d3.select(node).classed('selected', false).classed('faint', false);
                 }
             }
         });
+
+        // debug: log selection count
+        // console.log('selected:', newlySelected.size);
     }
-        function updateSelection(rect, finalize) {
-            const rectBounds = { x1: rect.x, y1: rect.y, x2: rect.x + rect.width, y2: rect.y + rect.height };
-            const initial = Array.isArray(brushInitialSelected) && brushInitialSelected.length > 0 ? brushInitialSelected : null;
-            const candidates = initial ? initial : svg.selectAll('.line').nodes();
-
-            const newlySelected = new Set();
-
-            candidates.forEach(function(node) {
-                const pts = node._pc_points || [];
-                if (polylineIntersectsRect(pts, rectBounds)) {
-                    newlySelected.add(node);
-                }
-            });
-
-            //determine whether there is any selection at all (either existing or newly selected)
-            const hadExisting = (initial && initial.length > 0) || svg.selectAll('.line.selected').nodes().length > 0;
-
-            //apply classes: lines in newlySelected become selected; others become faint
-            svg.selectAll('.line').each(function() {
-                const node = this;
-                if (newlySelected.has(node)) {
-                    d3.select(node).classed('selected', true).classed('faint', false);
-                } else {
-                    if (hadExisting || newlySelected.size > 0) {
-                        d3.select(node).classed('selected', false).classed('faint', true);
-                    } else {
-                        d3.select(node).classed('selected', false).classed('faint', false);
-                    }
-                }
-            });
-        }
 
     //test whether any segment or point of polyline intersects rect
     function polylineIntersectsRect(pts, rect) {
@@ -346,6 +321,19 @@ function drawParallelCoordinates(data) {
 
     console.log('Chart rendered with', data.length, 'rows and', dimensions.length, 'axes');
 }
+
+// Clear selection when clicking outside the chart area
+window.addEventListener('click', function(e) {
+    const chartEl = document.getElementById('chart');
+    if (!chartEl) return;
+    if (!chartEl.contains(e.target)) {
+        const svgSel = d3.select('#chart svg');
+        if (!svgSel.empty()) {
+            svgSel.selectAll('.line').classed('selected', false).classed('faint', false);
+            if (svgSel.node()) svgSel.node()._brushInitialSelected = null;
+        }
+    }
+});
 
 //redraw chart on window resize (debounced)
 let _resizeTimeout = null;
