@@ -47,6 +47,16 @@ document.getElementById('cis2019Button').addEventListener('click', function() {
     }
 });
 
+//clear selection button
+document.getElementById('clearSelectionButton').addEventListener('click', function() {
+    const svgSel = d3.select('#chart svg');
+    if (!svgSel.empty()) {
+        svgSel.selectAll('.line').classed('selected', false).classed('faint', false).classed('hovered', false);
+        svgSel.selectAll('.brush-rect').classed('visible', false);
+        if (svgSel.node()) svgSel.node()._brushInitialSelected = null;
+    }
+});
+
 //main function to draw parallel coordinates chart for provided `data`
 function drawParallelCoordinates(data) {
     //clear previous chart content
@@ -114,6 +124,8 @@ function drawParallelCoordinates(data) {
                 return [x(p), y[p](v)];
             });
             this._pc_points = pts;
+            //keep original data row for recomputing path on resize
+            this._pc_row = row;
         })
         .on('mouseover', function(event, row) {
             d3.select(this).raise().classed('hovered', true);
@@ -158,6 +170,20 @@ function drawParallelCoordinates(data) {
             .attr('y', -10)
             .text(d);
     });
+
+    // store current chart state to allow non-destructive resize (no full redraw)
+    const chartNode = d3.select('#chart').node();
+    chartNode._pc = {
+        x: x,
+        y: y,
+        dimensions: dimensions,
+        line: line,
+        margin: margin,
+        width: width,
+        height: height,
+        isNumeric: isNumeric,
+        svgGroup: svg
+    };
 
     //overlay to capture pointer events
     const overlay = svg.append('rect')
@@ -333,6 +359,45 @@ let _resizeTimeout = null;
 window.addEventListener('resize', function() {
     if (_resizeTimeout) clearTimeout(_resizeTimeout);
     _resizeTimeout = setTimeout(function() {
-        if (currentData) drawParallelCoordinates(currentData);
+        // perform non-destructive resize: adjust scales and recompute paths/axes without full redraw
+        const chartNode = d3.select('#chart').node();
+        if (!chartNode || !chartNode._pc) return;
+        const state = chartNode._pc;
+        const margin = state.margin;
+        const containerWidth = document.getElementById('chart').clientWidth || (state.width + margin.left + margin.right);
+        const newWidth = containerWidth - margin.left - margin.right;
+
+        // update stored width
+        state.width = newWidth;
+
+        // update outer svg size
+        const outer = d3.select('#chart svg');
+        if (!outer.empty()) {
+            outer.attr('width', newWidth + margin.left + margin.right);
+        }
+
+        // update x scale range
+        state.x.range([0, newWidth]);
+
+        // update axis group positions
+        d3.select('#chart').selectAll('.dimension')
+            .attr('transform', d => `translate(${state.x(d)})`);
+
+        // recompute path d and cached points for each line
+        d3.select('#chart').selectAll('.line').each(function() {
+            const node = this;
+            const row = node._pc_row;
+            if (!row) return;
+            const pts = state.dimensions.map(function(p) {
+                const v = state.isNumeric[p] ? +row[p] : String(row[p]);
+                return [state.x(p), state.y[p](v)];
+            });
+            node._pc_points = pts;
+            d3.select(node).attr('d', state.line(pts));
+        });
+
+        // update overlay size
+        d3.select('#chart').selectAll('.brush-overlay')
+            .attr('width', newWidth).attr('height', state.height);
     }, 200);
 });
