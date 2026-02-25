@@ -171,7 +171,7 @@ function drawParallelCoordinates(data) {
             .text(d);
     });
 
-    // store current chart state to allow non-destructive resize (no full redraw)
+    //store current chart state to allow non-destructive resize (no full redraw)
     const chartNode = d3.select('#chart').node();
     chartNode._pc = {
         x: x,
@@ -242,7 +242,7 @@ function drawParallelCoordinates(data) {
             svg.node()._brushInitialSelected = null;
         } else {
             updateSelection({ x: x0, y: y0, width: w, height: h }, true);
-            // after finalizing, update the snapshot so subsequent brushes narrow from this selection
+            //update the snapshot so subsequent brushes narrow from this selection
             svg.node()._brushInitialSelected = svg.selectAll('.line.selected').nodes();
         }
 
@@ -359,7 +359,7 @@ let _resizeTimeout = null;
 window.addEventListener('resize', function() {
     if (_resizeTimeout) clearTimeout(_resizeTimeout);
     _resizeTimeout = setTimeout(function() {
-        // perform non-destructive resize: adjust scales and recompute paths/axes without full redraw
+        //perform non-destructive resize: adjust scales and recompute paths/axes without full redraw
         const chartNode = d3.select('#chart').node();
         if (!chartNode || !chartNode._pc) return;
         const state = chartNode._pc;
@@ -367,23 +367,23 @@ window.addEventListener('resize', function() {
         const containerWidth = document.getElementById('chart').clientWidth || (state.width + margin.left + margin.right);
         const newWidth = containerWidth - margin.left - margin.right;
 
-        // update stored width
+        //update stored width
         state.width = newWidth;
 
-        // update outer svg size
+        //update outer svg size
         const outer = d3.select('#chart svg');
         if (!outer.empty()) {
             outer.attr('width', newWidth + margin.left + margin.right);
         }
 
-        // update x scale range
+        //update x scale range
         state.x.range([0, newWidth]);
 
-        // update axis group positions
+        //update axis group positions
         d3.select('#chart').selectAll('.dimension')
             .attr('transform', d => `translate(${state.x(d)})`);
 
-        // recompute path d and cached points for each line
+        //recompute path d and cached points for each line
         d3.select('#chart').selectAll('.line').each(function() {
             const node = this;
             const row = node._pc_row;
@@ -396,7 +396,7 @@ window.addEventListener('resize', function() {
             d3.select(node).attr('d', state.line(pts));
         });
 
-        // update overlay size
+        //update overlay size
         d3.select('#chart').selectAll('.brush-overlay')
             .attr('width', newWidth).attr('height', state.height);
     }, 200);
