@@ -107,10 +107,18 @@ function drawParallelCoordinates(data) {
                 return [x(p), y[p](v)];
             }));
         })
+        .each(function(row) {
+            //save computed points on DOM element for later hit-testing during brushing
+            const pts = dimensions.map(function(p) {
+                const v = isNumeric[p] ? +row[p] : String(row[p]);
+                return [x(p), y[p](v)];
+            });
+            this._pc_points = pts;
+        })
         .on('mouseover', function(event, row) {
             d3.select(this).raise().classed('hovered', true);
 
-            // build tooltip content
+            //build tooltip content
             const html = dimensions.map(d => `<div><strong>${d}</strong>: ${row[d] == null ? '' : row[d]}</div>`).join('');
             tooltip.html(html)
                 .classed('visible', true)
@@ -150,6 +158,191 @@ function drawParallelCoordinates(data) {
             .attr('y', -10)
             .text(d);
     });
+
+    //overlay to capture pointer events
+    const overlay = svg.append('rect')
+        .attr('class', 'brush-overlay')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('width', width)
+        .attr('height', height);
+
+    //visible brush rectangle
+    const brushRect = svg.append('rect')
+        .attr('class', 'brush-rect')
+        .attr('display', 'none');
+
+    let brushStart = null;
+    //snapshot of selected lines at the moment brushing started
+    let brushInitialSelected = null;
+
+    //start brushing from the main svg group (so the overlay rect doesn't block pointer-events to lines)
+    svg.on('mousedown', function(event) {
+        brushStart = d3.pointer(event, svg.node());
+        //capture current selection snapshot so live dragging doesn't progressively narrow
+        brushInitialSelected = svg.selectAll('.line.selected').nodes();
+        brushRect.attr('x', brushStart[0]).attr('y', brushStart[1])
+            .attr('width', 0).attr('height', 0)
+            .classed('visible', true);
+
+        d3.select(window)
+            .on('mousemove.brush', mousemove)
+            .on('mouseup.brush', mouseup);
+    });
+
+    function mousemove(event) {
+        if (!brushStart) return;
+        const p = d3.pointer(event, svg.node());
+        const x0 = Math.min(brushStart[0], p[0]);
+        const y0 = Math.min(brushStart[1], p[1]);
+        const w = Math.abs(p[0] - brushStart[0]);
+        const h = Math.abs(p[1] - brushStart[1]);
+        brushRect.attr('x', x0).attr('y', y0).attr('width', w).attr('height', h);
+
+        //perform selection live
+        updateSelection({ x: x0, y: y0, width: w, height: h }, false);
+    }
+
+    function mouseup(event) {
+        if (!brushStart) return;
+        const p = d3.pointer(event, svg.node());
+        const x0 = Math.min(brushStart[0], p[0]);
+        const y0 = Math.min(brushStart[1], p[1]);
+        const w = Math.abs(p[0] - brushStart[0]);
+        const h = Math.abs(p[1] - brushStart[1]);
+
+        //tiny click clears selection
+        if (w < 3 && h < 3) {
+            //clear selection
+            svg.selectAll('.line').classed('selected', false).classed('faint', false);
+        } else {
+            updateSelection({ x: x0, y: y0, width: w, height: h }, true);
+            // after finalizing, update the snapshot so subsequent brushes narrow from this selection
+            brushInitialSelected = svg.selectAll('.line.selected').nodes();
+        }
+
+        brushRect.classed('visible', false);
+        brushStart = null;
+        d3.select(window).on('mousemove.brush', null).on('mouseup.brush', null);
+    }
+
+    //determine candidate lines and set selected/faint classes
+    function updateSelection(rect, finalize) {
+        const rectBounds = { x1: rect.x, y1: rect.y, x2: rect.x + rect.width, y2: rect.y + rect.height };
+
+        //choose candidate set: if any lines already selected, narrow to those; otherwise all lines
+        const alreadySelected = svg.selectAll('.line.selected').nodes();
+        const candidates = alreadySelected.length > 0 ? alreadySelected : svg.selectAll('.line').nodes();
+
+        const newlySelected = new Set();
+
+        candidates.forEach(function(node) {
+            const pts = node._pc_points || [];
+            if (polylineIntersectsRect(pts, rectBounds)) {
+                newlySelected.add(node);
+            }
+        });
+
+        //apply classes: lines in newlySelected become selected; others become faint
+        svg.selectAll('.line').each(function() {
+            const node = this;
+            if (newlySelected.has(node)) {
+                d3.select(node).classed('selected', true).classed('faint', false);
+            } else {
+                //if there was an existing selection set and this node was not selected now, make faint
+                if (alreadySelected.length > 0 || newlySelected.size > 0) {
+                    d3.select(node).classed('selected', false).classed('faint', true);
+                } else {
+                    d3.select(node).classed('selected', false).classed('faint', false);
+                }
+            }
+        });
+    }
+        function updateSelection(rect, finalize) {
+            const rectBounds = { x1: rect.x, y1: rect.y, x2: rect.x + rect.width, y2: rect.y + rect.height };
+            const initial = Array.isArray(brushInitialSelected) && brushInitialSelected.length > 0 ? brushInitialSelected : null;
+            const candidates = initial ? initial : svg.selectAll('.line').nodes();
+
+            const newlySelected = new Set();
+
+            candidates.forEach(function(node) {
+                const pts = node._pc_points || [];
+                if (polylineIntersectsRect(pts, rectBounds)) {
+                    newlySelected.add(node);
+                }
+            });
+
+            //determine whether there is any selection at all (either existing or newly selected)
+            const hadExisting = (initial && initial.length > 0) || svg.selectAll('.line.selected').nodes().length > 0;
+
+            //apply classes: lines in newlySelected become selected; others become faint
+            svg.selectAll('.line').each(function() {
+                const node = this;
+                if (newlySelected.has(node)) {
+                    d3.select(node).classed('selected', true).classed('faint', false);
+                } else {
+                    if (hadExisting || newlySelected.size > 0) {
+                        d3.select(node).classed('selected', false).classed('faint', true);
+                    } else {
+                        d3.select(node).classed('selected', false).classed('faint', false);
+                    }
+                }
+            });
+        }
+
+    //test whether any segment or point of polyline intersects rect
+    function polylineIntersectsRect(pts, rect) {
+        if (!pts || pts.length === 0) return false;
+        //point inside rect
+        for (let i = 0; i < pts.length; i++) {
+            const p = pts[i];
+            if (pointInRect(p[0], p[1], rect)) return true;
+        }
+        //segment intersection
+        for (let i = 0; i < pts.length - 1; i++) {
+            if (segmentIntersectsRect(pts[i], pts[i+1], rect)) return true;
+        }
+        return false;
+    }
+
+    function pointInRect(x, y, rect) {
+        return x >= rect.x1 && x <= rect.x2 && y >= rect.y1 && y <= rect.y2;
+    }
+
+    function segmentIntersectsRect(a, b, rect) {
+        //if either endpoint inside
+        if (pointInRect(a[0], a[1], rect) || pointInRect(b[0], b[1], rect)) return true;
+        //check intersection with each rect edge
+        const edges = [
+            [[rect.x1, rect.y1], [rect.x2, rect.y1]],
+            [[rect.x2, rect.y1], [rect.x2, rect.y2]],
+            [[rect.x2, rect.y2], [rect.x1, rect.y2]],
+            [[rect.x1, rect.y2], [rect.x1, rect.y1]]
+        ];
+        for (let i = 0; i < edges.length; i++) {
+            if (segmentsIntersect(a, b, edges[i][0], edges[i][1])) return true;
+        }
+        return false;
+    }
+
+    //standard segment intersection test
+    function segmentsIntersect(p1, p2, q1, q2) {
+        const orient = (a, b, c) => (b[0]-a[0])*(c[1]-a[1]) - (b[1]-a[1])*(c[0]-a[0]);
+        const o1 = orient(p1,p2,q1);
+        const o2 = orient(p1,p2,q2);
+        const o3 = orient(q1,q2,p1);
+        const o4 = orient(q1,q2,p2);
+        if (o1 === 0 && onSegment(p1, q1, p2)) return true;
+        if (o2 === 0 && onSegment(p1, q2, p2)) return true;
+        if (o3 === 0 && onSegment(q1, p1, q2)) return true;
+        if (o4 === 0 && onSegment(q1, p2, q2)) return true;
+        return (o1>0) !== (o2>0) && (o3>0) !== (o4>0);
+    }
+
+    function onSegment(a, b, c) {
+        return b[0] >= Math.min(a[0], c[0]) && b[0] <= Math.max(a[0], c[0]) &&
+               b[1] >= Math.min(a[1], c[1]) && b[1] <= Math.max(a[1], c[1]);
+    }
 
     console.log('Chart rendered with', data.length, 'rows and', dimensions.length, 'axes');
 }
